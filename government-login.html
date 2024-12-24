@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>政府登录 - Carbon Vista</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h2>政府登录</h2>
+    <form id="governmentLoginForm">
+        <label for="governmentId">政府账号：</label>
+        <input type="text" id="governmentId" name="governmentId" required autocomplete="on">
+        <label for="authorizationCode">授权码：</label>
+        <input type="text" id="authorizationCode" name="authorizationCode" required autocomplete="on">
+        <label for="password">密码：</label>
+        <input type="password" id="password" name="password" required autocomplete="on">
+        <button type="submit">登录</button>
+    </form>
+    <script src="script.js"></script>
+</body>
+</html>
